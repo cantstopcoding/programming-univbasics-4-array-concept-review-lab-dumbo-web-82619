@@ -25,6 +25,10 @@ def find_min_value(array)
     if ind == 0 
       min_value = array[ind]
     end 
+    if array[ind] < min_value
+      min_value = array[ind]
+    end 
   end 
+  min_value
 end
 
