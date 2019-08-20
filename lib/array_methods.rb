@@ -19,6 +19,10 @@ end
 
 def find_min_value(array)
   # Add your solution here
+  min_value = 0 
   
+  array.length.times do |ind|
+    if 
+  end 
 end
 
