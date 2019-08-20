@@ -24,8 +24,7 @@ def find_min_value(array)
   array.length.times do |ind|
     if ind == 0 
       min_value = array[ind]
-    end 
-    if array[ind] < min_value
+    elsif array[ind] < min_value
       min_value = array[ind]
     end 
   end 
